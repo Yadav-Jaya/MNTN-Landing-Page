@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main .flex span{
+    position: absolute;
+    margin-top: -3%;
+    margin-left: -6%;
+    font-size: 8em;
+    opacity: 0.1;
+    color: white;
+}
+#line{
+    position: relative;
+    top: -8px;
+    width: 14%;
+    border-bottom: 3px solid #FBD784 ;
+}
+.main .flex .text .sub p{
+    margin-bottom: 0;
+}
+body{
+    background-color: #0B1D26;
+    padding-bottom: 5%;
+}
+h1,a,p,.logo{
+    color: #fff;
+}
+
+
+.images .text .sub p,
+.main .flex .text .sub p,
+h4{
+    color: #FBD784 ;
+}
+
+h1, h4, a,p,h3{
+    margin: 15px 5px;
+}
+.logo{
+    font-size: 1.7em;
+}
+.images header{
+    padding: 3%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images{
+    width: 100vw;
+    height: 120vh;
+    background-image: linear-gradient(0deg,rgba(11, 29, 38, 0),#0b1d26d0) ,linear-gradient(rgba(11, 29, 38, 0),#0b1d26),url('images/Clouds.png'), url('images/Mountains.png'), url('images/green.png') ;
+    background-position: top left,bottom ,top, center, bottom;
+    background-size: 100% 50%,100% 50%,100% 40%,100% 82%,100% 50%;
+    background-repeat: no-repeat;
+}
+.images .text .sub p{
+    position: relative;
+    bottom: -16px;
+}
+.images .links{
+    position: absolute;
+    width: 20px;
+    display: grid;
+    grid-template-rows: 3;
+    grid-gap: 15px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.images .linkright{
+    position: absolute;
+    text-align: center;
+    right: 5%;
+    margin-top: 3%;
+    padding-right: 1%;
+    border-right: 3px solid  rgba(255, 255, 255, 0.37);
+}
+.images .links p{
+    writing-mode: vertical-lr;
+}
+.images .text .heading,
+h1{
+    font-size: 44px;
+    font-style: unset;
+}
+.images .text{
+    width: 40vw;
+    height: 15vh;
+    margin-left: 33%;
+}
+.images .text img {
+    position: relative;
+    width: 16px;
+    height: 18px;
+    bottom: 36%;
+    left: 20%;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main .flex{
+    position: relative;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    gap: 10%;
+    padding: 8%;
+}
+.main .flex .text .sub,
+.images .text .sub{
+    display: flex;
+    gap: 5%;
+    
+}
+.main .flex .text{
+    width: 40%;
+}
+.main .one{
+    padding-top: 0;
+}
+footer,
+footer .right .align,
+footer .right {
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+footer .right .align{
+    flex-direction: column;
+}
+footer .left{
+    width: 30%;
+}
+footer .right{
+    width: 32%;
+}
+
+footer .left .copyright{
+    color: rgb(133, 129, 129);
+    padding: 22% 0;
+}
+footer .right .two {
+    justify-content: flex-start;
+}
